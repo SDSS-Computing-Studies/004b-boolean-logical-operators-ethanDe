@@ -42,6 +42,6 @@ cube = round(cube, 8)
 if square == int(square) and cube == int(cube):
     print(f"{x} is both a perfect square and perfect cube.")
 elif square == int(square) and cube != int(cube):
-    print(f"{x} is only perfect square.")
+    print(f"{x} is only a perfect square.")
 elif cube == int(cube) and square != int(square):
     print(f"{x} is only a perfect cube.")
