@@ -31,7 +31,6 @@ Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
 
-import math
 
 a = int(input("Enter an integer: "))
 b = int(input("Enter an integer: "))
@@ -44,6 +43,6 @@ med = list1[-2]
 small = list1[-3]
 
 if (small**2) + (med**2) == (big**2):
-    print(f"{a}, {b}, {c} form a Pythagorean triple")
+    print(f"{a},{b},{c} form a Pythagorean triple")
 else:
-    print(f"{a}, {b}, {c} do not form a Pythagorean triple")
+    print(f"{a},{b},{c} do not form a Pythagorean triple")
