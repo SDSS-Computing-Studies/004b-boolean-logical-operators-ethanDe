@@ -30,3 +30,20 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+
+import math
+
+a = int(input("Enter an integer: "))
+b = int(input("Enter an integer: "))
+c = int(input("Enter an integer: "))
+
+list1 = [a, b, c]
+list1.sort()
+big = list[-1]
+med = list[-2]
+small = list[-3]
+
+if (small**2) + (med**2) == (big**2):
+    print(f"{a},{b},{c} form a Pythagorean triple")
+else:
+    print(f"{a,b,c} do not form a Pythagorean triple")
