@@ -36,4 +36,4 @@ small = min(x, y)
 if big%small == 0:
     print(f"{small} is a factor of {big}")
 else:
-    print (f"{small} is not a factor {big}")
+    print (f"{small} is not a factor of {big}")
