@@ -41,8 +41,7 @@ list1.sort()
 big = list1[-1]
 med = list1[-2]
 small = list1[-3]
-
 if (small**2) + (med**2) == (big**2):
-    print(f"{a},{b},{c} form a Pythagorean triple")
+    print(f"{small},{med},{big} form a Pythagorean triple")
 else:
-    print(f"{a},{b},{c} do not form a Pythagorean triple")
+    print(f"{small},{med},{big} do not form a Pythagorean triple")
